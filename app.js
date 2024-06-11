@@ -1,4 +1,4 @@
-import { allQuestions } from "./questions";
+import { allQuestions } from "./questions.js";
 
 let currentQuestionIndex = -1;
 let isShowingAnswer = false;
