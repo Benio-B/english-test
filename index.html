@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <p class="description">Le but est de traduire en français ou en anglais les mots ou expressions !</p>
+        <div id="category-buttons">
+            <button id="category-all" class="category-button" data-category="all">Toutes les catégories</button>
+        </div>
+        <hr />
+        <button id="new-question" style="display: none;">Nouvelle Question</button>
+        <button id="show-answer" style="display: inline;">Montrer la réponse</button>
+        <div id="no-more-questions" style="display: none;">Toutes les questions ont été répondues :)</div>
+        <div id="question-container" style="display: block;">
+            <h3 id="category"></h3>
+            <div class="question-language-container">
+                <p id="language-indicator"></p>
+                <p>&nbsp;</p>
+                <p id="question"></p>
+            </div>
+            <p id="answer"> </p>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
