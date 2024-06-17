@@ -8,6 +8,12 @@ const allQuestions = [
       explicitCategory: "Syntaxe/Grammaire",
     },
     {
+        english: 'I stopped to eat / I stopped eating',
+        french: "J'ai arrété pour manger. J'ai arrété de manger",
+        category: "word-syntaxe",
+        explicitCategory: "Syntaxe/Grammaire"
+    },
+    {
       english: "Right here (The best café is right here!)",
       french: "Juste ici. (Le meilleur café est ici !)",
       category: "word-syntaxe",
