@@ -1,5 +1,47 @@
 const allQuestions = [
     {
+        "english": "Binoculars (He used binoculars to watch the birds in the distance)",
+        "french": "Jumelles (Il a utilisé des jumelles pour observer les oiseaux au loin)",
+        category: "vocabulary",
+        explicitCategory: "Vocabulaire de tous les jours",
+    },
+    {
+        "english": "Lamb (They served roasted lamb for dinner)",
+        "french": "Agneau (Ils ont servi de l'agneau rôti pour le dîner)",
+        category: "vocabulary",
+        explicitCategory: "Vocabulaire de tous les jours",
+    },
+    {
+        "english": "Comb (She combed her hair before leaving the house)",
+        "french": "Peigne (Elle a peigné ses cheveux avant de quitter la maison)",
+        category: "vocabulary",
+        explicitCategory: "Vocabulaire de tous les jours",
+    },
+    {
+        "english": "Thumb (He injured his thumb while playing basketball)",
+        "french": "Pouce (Il s'est blessé le pouce en jouant au basket)",
+        category: "vocabulary",
+        explicitCategory: "Vocabulaire de tous les jours",
+    },
+    {
+        "english": "Winery (They visited a winery during their trip to Napa Valley)",
+        "french": "Vignoble (Ils ont visité un vignoble lors de leur voyage dans la Napa Valley)",
+        category: "car",
+        explicitCategory: "En balade/En voiture",
+    },
+    {
+        "english": "Gherkin (She added a gherkin to her sandwich)",
+        "french": "Cornichon (Elle a ajouté un cornichon à son sandwich)",
+        category: "hotel-travel-restaurant",
+        explicitCategory: "Hôtel/Voyage/Restaurant",
+    },
+    {
+        "english": "Hiccup (USA) / Hiccough (UK) (He had a hiccup after drinking soda)",
+        "french": "Hoquet (Il a eu le hoquet après avoir bu du soda)",
+        category: "vocabulary",
+        explicitCategory: "Vocabulaire de tous les jours",
+    },
+    {
       english:
         "This/these ; That/those (This dog is mine, that other dog is not)",
       french:
